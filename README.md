@@ -13,3 +13,11 @@
 
 ## LineNotifyApi：
 - 通知系統，負責將打卡成功或失敗的通知推送給用戶。
+
+### Development Guide
+1. Line UserToken設定:  
+這個Token是用來讓服務能發送訊息至使用者帳號，權杖發行的方式參考[line 發行存取權杖（開發人員用）]。
+在本地開發環境下,推薦使用secrets.json方式儲存,快速設定的指令如下:
+```.NET CLI
+dotnet user-secrets set "Line:UserToken" "YOUR_LINE"
+```
