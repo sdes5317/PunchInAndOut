@@ -1,0 +1,6 @@
+@LineNotifyApi_HostAddress = http://localhost:5126
+
+GET {{LineNotifyApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
