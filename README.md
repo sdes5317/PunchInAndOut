@@ -1,4 +1,9 @@
 # PunchInAndOut
+想要一個Work Do自動打卡系統，並寫他有以下功能
+	1. 可以部屬在Linux Docker上
+	2. 預設周一到周五自動打卡
+	3. 可以忽略休假時間(預計參考同事大大的程式碼)
+	4. 成功或失敗會Line Notify通知
 
 ## PunchInAndOut：
 - Scheduler：
